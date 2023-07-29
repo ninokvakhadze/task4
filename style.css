@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+@font-face {
+  src: url(./alk_life.otf);
+  font-family: ALK Life;
+}
+@font-face {
+  src: url(./bpg_dejavu_sans.ttf);
+  font-family: DejaVu Sans;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  padding: 50px 130px;
+}
+.header-texts {
+  display: flex;
+  gap: 39px;
+  margin-top: 30px;
+}
+.header-text {
+  font-family: ALK Life;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+.active {
+  color: #a62b28;
+}
+.background-image {
+  display: block;
+  margin: auto;
+  margin-top: 160px;
+}
+.section1 {
+  padding: 160px 130px;
+}
+.section-header {
+  display: flex;
+  gap: 40px;
+}
+.section-logo-box {
+  width: 40px;
+  height: 40px;
+  padding: 30px;
+  background-color: #a62b28;
+}
+h2 {
+  font-family: DejaVu Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #717276;
+  margin-top: 20px;
+}
+.section-bottom {
+  margin-top: 50px;
+  display: flex;
+  gap: 15px;
+}
+.author {
+  font-family: DejaVu Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #717276;
+  margin-top: 55px;
+}
+.book-name {
+  font-family: ALK Life;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-top: 10px;
+}
+.price {
+  font-family: DejaVu Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-top: 10px;
+}
+.section2 {
+  padding: 0px 130px 160px 130px;
+}
+footer {
+  background-color: #d9d9d9;
+  padding: 71px 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-text {
+  font-family: ALK Life;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  cursor: pointer;
+}
+.icons{
+  display: flex;
+  gap: 20px;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
